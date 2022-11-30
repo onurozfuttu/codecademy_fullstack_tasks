@@ -2,6 +2,8 @@ import { animals } from './animals';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Hint for who is inspecting the code: Do not use the arrow function, it does not work because of hoisting.
+
 const title = '';
 const background = <img className='background' alt='ocean' src='/images/ocean.jpg' />;
 const images = [];
